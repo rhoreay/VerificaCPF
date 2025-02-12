@@ -7,7 +7,9 @@ https://localhost:7185/api/Cpf?CpfCompleto=<cpf>
 ```
 O algoritmo de validação funciona com um método da Classe Cpf que recebe os dígitos base como parâmetro e é chamado
 recusrivamente para calcular os dois dígitos verificadores.
+
 ##Response
+
 A API retorna o objeto CPF, que possui as seguintes propriedades:
 ```C#
 public class Cpf
